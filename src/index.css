@@ -1,0 +1,241 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(185, 184, 184);
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+  margin: 0 auto;
+}
+
+/* Header Stars */
+
+header nav {
+  position: fixed;
+  background-color: rgb(224, 224, 224);
+  width: 100%;
+  height: 5vh;
+  z-index: 3;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.562);
+  font-weight: 900;
+}
+
+header nav ul li a:hover {
+  color: black;
+}
+
+header nav ul li {
+  cursor: pointer;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2.3em;
+  justify-content: flex-end;
+  align-items: center;
+  height: 5vh;
+}
+
+/* Header ends */
+
+/* main starts */
+h2 {
+  text-decoration: underline;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+/* contianer starts */
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+/* contianer ends */
+/* tables Design starts */
+table {
+  width: 100%;
+  margin: 0 auto;
+}
+table,
+th,
+td {
+  border: 1.5px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+}
+
+table tr td:first-child {
+  width: 1%;
+}
+th {
+  height: 4em;
+  background-color: rgb(154, 204, 255);
+}
+/* tables Design ends */
+/* conditional table color based on add or delete starts*/
+.blue-table {
+  height: 3em;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1rem;
+  background-color: rgb(134, 184, 255);
+}
+.green-table {
+  height: 7vh;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1rem;
+  background-color: rgb(110, 183, 50);
+}
+/* conditional table color based on add or delete ends*/
+/* final course table submit button starts */
+.submit-list-c {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.submit-list {
+  margin-top: 1em;
+  font-size: 1rem;
+  font-weight: 900;
+  background-color: rgb(161, 167, 255);
+  border: 2px solid rgb(6, 22, 255);
+}
+.submit-list-disable {
+  margin-top: 1em;
+  font-size: 1rem;
+  font-weight: 900;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.281);
+}
+/* final course table submit button ends */
+/* final course table counter starts */
+.counter {
+  font-weight: 900;
+}
+
+.counter span {
+  font-size: 1.3rem;
+  margin-left: 0.4em;
+}
+.submit-button {
+  height: 30vh;
+}
+/* final course table counter ends */
+/* search form starts */
+.form-search {
+  margin-bottom: 1em;
+}
+
+form {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.2em;
+  width: 100%;
+}
+
+.form-search input {
+  width: 50%;
+  height: 6vh;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+/* search form ends */
+/* modal text starts */
+.modal-text {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+/* modal text ends */
+
+/* main ends */
+
+/* footer section starts*/
+.footer-design {
+  width: 100%;
+  height: 100vh;
+
+  background-color: rgb(160, 159, 159);
+}
+.footer-content h3,
+.git-hub {
+  margin-top: 4em;
+}
+.footer-content {
+  width: 100%;
+
+  display: flex;
+}
+.footer-content-left {
+  width: 50%;
+}
+.footer-content-right {
+  width: 50%;
+
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2em;
+}
+.git-hub a {
+  color: rgba(0, 0, 0, 0.699);
+}
+.git-hub a:hover {
+  color: rgb(0, 0, 0);
+}
+.git-hub {
+  font-size: 2rem;
+}
+/* footer section ends */
+/* login modal starts */
+.h-title-login {
+  color: rgb(0, 0, 0);
+  margin-bottom: 2em;
+  padding-top: 0em;
+}
+.warning {
+  color: red;
+  font-size: 1.1rem;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.login-label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2em;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.login-label input {
+  width: 70%;
+}
+.button-login {
+  color: rgb(255, 255, 255);
+  background-color: #0531f7;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.3em;
+}
+.login-button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  margin-top: 2em;
+}
+.ant-modal-close {
+  color: rgb(0, 0, 0);
+}
+.ant-modal-content {
+  background-color: rgb(202, 200, 200);
+}
+/* login modal ends */
